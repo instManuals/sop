@@ -1,0 +1,39 @@
+# JEOL 300 MHz NMR Maintenance SOP
+
+* The NMR is under a service contract and many preventative maintenance tasks and repairs can be performed by the service engineer.*
+
+# Maintenance Schedule
+
+## Weekly
+- Fill liquid nitrogen.
+- Check liquid helium level.
+- Review log book.
+
+## Monthly/as-needed
+- Fill liquid helium.
+
+# Performing a LN2 Fill
+
+> Liquid nitrogen can be dangerous if handled improperly.  Wear gloves and eye protection!
+
+## Hardware
+1. Obtain an LN2 tank from the gas cage on the second floor of NS.  It is preferable to use a "low pressure" tank rather than a "high pressure" tank.
+1. Position the tank so that the liquid port is near the NMR and connect the braided transfer line to the liquid port on the tank.
+1. Remove the cover on the NMR LN2 fill port.
+1. Fold the latex tubing on the other end of the transfer line back on itself and slide it over the LN2 fill port.
+1. Ensure the vent tube on the NMR is clear and not pointing at anything that can't withstand cold temperatures.  When the software is ready (see **Software** section), *slowly* open the valve on the liquid port of the LN2 tank.  *Be sure the latex tubing does not rupture as it freezes.  If it does, turn on LN2 flow immediately.*
+1. Observe (1) N2 gas existing the vent tube on the NMR and (2) the LN2 fill level going up in the software. Move the valve occasionally to ensure it does not get frozen open.
+1. Once the N2 level reads 100%, close the valve on the tank and allow fitting to thaw for a few minutes before disconnecting the transfer line.
+1. Return the tank (and remember to log out of the computer, see **Software** section).
+
+## Software
+1. Log into the NMR computer using the ID **WCU355597/labuser** and the password **labuser**.
+1. Open the NMR software by clicking on the **NMR Software and Usage Log** shortcut on the desktop.  If not already reserved, please record fill time on the calendar.
+1. Click on the magnet/NMR icon in the top left of the software.
+1. In the resulting window, select "**eclipse 2 - free ...**" from the list of available instruments and click **Connect**.
+
+    > Note: If you do not see the "eclipse 2 - free ..." option the spectrometer is not free; click the **Free** or **Unlink** button and then continue connecting to the instrument as described above.
+
+1. Click on `Tools > Console Mode` and enter the password *console* when prompted.
+1. Click on **Sample** and select `Option > N2 Fill` to display the LHe and LN2 levels on the screen.
+1. Once the fill is complete (see **Hardware** section), close the LN2 fill window, click **Unlink**, close the remaining windows, and logoff windows.

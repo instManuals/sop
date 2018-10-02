@@ -1,10 +1,10 @@
 ---
 output:
+  pdf_document:
+    number_sections: yes
   html_document:
     number_sections: yes
     theme: simplex
-  pdf_document:
-    number_sections: yes
 ---
 Labconco FreeZone 1 Liter Lyophilizer, Model 7740021 {-}
 --------
@@ -25,11 +25,11 @@ AF | 2018-09-28
 
 1. Turn the lyophilizer on by flipping the power switch on the right side of the instrument.
 1. Allow the instrument to cool to -50 degrees C.  It should reach this temperature within 10 minutes; if it does not please notify the Instrumentation Specialist.
-1. Allow the instrument to reach vacuum.  If the pressure is not < 0.133 mbar within 10 minutes of starting the pump, please notify the Instrumentation Specialist.
+1. When the instrument is below -40 degrees C you may turn on the vacuum.  Press the green **Vaccum On/Off** button.  If the pressure is not < 0.133 mbar within 10 minutes of starting the pump, please notify the Instrumentation Specialist.
 
 # Process Samples
 
-1. Pre-freeze your samples using an appropriate protocol and load them into one of the glass sample holder and connect it to a port on the chamber with the adapters provided.  *The sample container should always be 2-3 times the sample size!*
+1. Pre-freeze your samples using an appropriate protocol and load them into one of the glass sample holders.  Connect it to a port on the chamber with the adapters provided.  *The sample container should always be 2-3 times the sample size!*
 1. When the temperature and pressure are acceptable, open the sample valve to place your sample under vacuum (beveled side of valve will be down).
   
     > *Remember the glass container will be under vacuum and should be handled with extreme care!*
@@ -41,9 +41,9 @@ AF | 2018-09-28
 
 *If you plan to lyophilize again within the next 24 hours you may leave the system on.  Otherwise, turn it off when you finish.*
 
-1. Break the vacuum while the instrument is still on by opening one of the spare valves on the sample chamber.  You should hear a strong hiss, and the vacuum pressure should read "HI".
+1. Break the vacuum while the instrument is still on by opening one of the spare valves on the sample chamber.  You should hear a hiss, and the vacuum pressure should read "HI".
 1. Press the green vacuum button on the front of the instrument to turn the pump off.
 1. Turn the system off by flipping the power switch on the side.
-1. Wipe the inside of the chamber with a Kimwipe to remove any residues and clean gaskets with hot, soapy water if necessary.
+1. Wipe the inside of the chamber with a Kimwipe to remove any residues and clean gaskets with hot, soapy water if they've been dirtied.
 1. If significant amounts of ice have developed on the collector coil, place the drain hose (black, on front of instrument) in a suitable container (e.g. plastic tub) and remove the drain plug.  Empty the water and replace the drain plug when the defrost is complete.
 1. Clean up your work area.

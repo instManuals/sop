@@ -126,7 +126,7 @@ $(document).ready(function () {
 
 <div id="agilent-1220-infinity-lc-with-uv-detector" class="section level1 unnumbered">
 <h1>Agilent 1220 Infinity LC with UV Detector</h1>
-<p>AF | 2018-10-02</p>
+<p>AF | 2018-10-04</p>
 <blockquote>
 <p><em>If you encounter problems while running the instrument, please use submit an <a href="https://docs.google.com/forms/d/e/1FAIpQLSc96MiK73kKP06KEZpR0-O7zETCLvWgQtLp_bKEynosUKqpNg/viewform"><strong>Instrument Incident Report</strong></a> with a description of your problem. <strong>For urgent problems please report to Al Fischer, NS 209, <a href="mailto:dfischer@wcu.edu">dfischer@wcu.edu</a>, x2695!</strong></em></p>
 </blockquote>
@@ -150,12 +150,15 @@ $(document).ready(function () {
 <div id="warm-up-the-instrument" class="section level1">
 <h1><span class="header-section-number">3</span> Warm Up the Instrument</h1>
 <ol style="list-style-type: decimal">
-<li>Ensure there is enough solvent for you run in the solvent bottles on top of the instrument.</li>
+<li><p>Ensure there is enough solvent for you run in the solvent bottles on top of the instrument.</p>
+<blockquote>
+<p><em>NEVER let the solvent level get below the level of the filter in the bottle! NEVER let air get into the HPLC plumbing!</em></p>
+</blockquote></li>
 <li>Right click on the solvent bottle pictures in the main panel of the HPLC software and enter the approximate solvent levels you observed in the bottles.</li>
 <li>Open the top/front cover the the HPLC and open the priming valve by turning the black knurled knob on the front of the pump a couple of turns. This ensures no air will enter the column.</li>
 <li>Click the green <strong>On</strong> button In the main window of the HPLC software to turn on the pump, column heater, and lamp.</li>
 <li>After the pumps have been on for roughly 2 minutes <em>and you do no see air bubbles exiting the valve into the waste line</em>, you may close the priming valve by turning the black knob until it’s closed.</li>
-<li>Allow the system to run until you observe a stable absorbance baseline in the real-time read out.</li>
+<li><p>Allow the system to run until you observe a stable absorbance baseline in the real-time read out.</p></li>
 </ol>
 </div>
 <div id="prepare-a-sequence" class="section level1">
@@ -179,6 +182,18 @@ $(document).ready(function () {
 <li>Select the <strong>Data Analysis</strong> pane and choose the sequence containing the data you wish to view/analyze/export.</li>
 <li>Select the sample you wish to view/analyze/export from the sequence.</li>
 <li>If you prefer to do data analysis in the software you may now do so. Otherwise, export your chromatogram to a CSV (recommended). 1. Choose <strong>File &gt; Export File &gt; CSV</strong>. 1. Select <strong>Signal</strong>. 1. Choose your file path. 1. Select the option containing <strong>Wavelength=230 nm</strong></li>
+</ol>
+</div>
+<div id="shutdown" class="section level1">
+<h1><span class="header-section-number">7</span> Shutdown</h1>
+<ol style="list-style-type: decimal">
+<li>Press the red <strong>Off</strong> button in the main HPLC control window.</li>
+<li><p>Go to <strong>Instrument &gt; More Grad. Pump &gt; Pump Power - Switch Off</strong>.</p>
+<blockquote>
+<p><em>You must complete this step or the pump will not turn off and the solvent bottles will run dry!</em></p>
+</blockquote></li>
+<li>Close the software and logoff from the computer.</li>
+<li><p>Remove your samples from the autosampler tray and clean up your work area.</p></li>
 </ol>
 </div>
 

@@ -1,15 +1,15 @@
 ---
 output:
-  pdf_document:
-    number_sections: yes
   html_document:
     number_sections: yes
     theme: simplex
+  pdf_document:
+    number_sections: yes
 ---
 
 # Agilent 1220 Infinity LC with UV Detector {-}
 
-AF | 2018-10-02
+AF | 2018-10-04
 
 > *If you encounter problems while running the instrument, please use submit an [**Instrument Incident Report**](https://docs.google.com/forms/d/e/1FAIpQLSc96MiK73kKP06KEZpR0-O7zETCLvWgQtLp_bKEynosUKqpNg/viewform) with a description of your problem.  **For urgent problems please report to Al Fischer, NS 209, dfischer@wcu.edu, x2695!***
 
@@ -27,7 +27,10 @@ AF | 2018-10-02
 
 # Warm Up the Instrument
 
-1. Ensure there is enough solvent for you run in the solvent bottles on top of the instrument.
+1. Ensure there is enough solvent for you run in the solvent bottles on top of the instrument.     
+      
+      > *NEVER let the solvent level get below the level of the filter in the bottle! NEVER let air get into the HPLC plumbing!*
+
 1. Right click on the solvent bottle pictures in the main panel of the HPLC software and enter the approximate solvent levels you observed in the bottles.
 1. Open the top/front cover the the HPLC and open the priming valve by turning the black knurled knob on the front of the pump a couple of turns.  This ensures no air will enter the column.
 1. Click the green **On** button In the main window of the HPLC software to turn on the pump, column heater, and lamp.
@@ -54,3 +57,13 @@ AF | 2018-10-02
 		1. Select **Signal**.
 		1. Choose your file path.
 		1. Select the option containing **Wavelength=230 nm**
+
+# Shutdown
+
+1. Press the red **Off** button in the main HPLC control window.
+1. Go to **Instrument > More Grad. Pump > Pump Power - Switch Off**.     
+
+      > *You must complete this step or the pump will not turn off and the solvent bottles will run dry!*
+		
+1. Close the software and logoff from the computer.
+1. Remove your samples from the autosampler tray and clean up your work area.
